@@ -11,6 +11,7 @@ PANDAS outputs in a user friendly way'''
 today = datetime.now()
 week_ago = today - timedelta(days=7)
 
+
 # Format dates for API (YYYY-MM-DD)
 start_date = week_ago.strftime("%Y-%m-%d")#striftime: to convert daytime into a specific format
 end_date = today.strftime("%Y-%m-%d")
